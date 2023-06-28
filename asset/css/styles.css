@@ -341,6 +341,7 @@ header {
     border-radius: 6px;
 }
 .member__item--img {
+    display: block;
     max-width: 100%;
     transition: 0.25;
 }
@@ -381,4 +382,34 @@ header {
 }
 .member__next--icon:last-child {
     transform: rotate(180deg);
+}
+/* Install app */
+.install {
+    margin: 180px 0 85px;
+}
+.install__in {
+    display: flex;
+    align-items: center;
+    padding: 0 70px;
+    background: #2e80ce;
+}
+.install__img {
+    display: block;
+    margin-top: -95px;
+}
+.install-right {
+    margin-left: 160px;
+}
+.install__heading {
+    color: #fff;
+}
+.install__desc {
+    width: 584px;
+    color: #fff;
+}
+.install__app {
+    margin-top: 38px;
+}
+.install__app a:last-child {
+    margin-left: 28px;
 }
