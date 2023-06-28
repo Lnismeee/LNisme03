@@ -39,6 +39,20 @@ a {
     cursor: pointer;
     opacity: 0.8;
 }
+.section__heading {
+    color: #10375c;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0, 02em;
+}
+
+.section__desc {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #575f66;
+}
 /* header */
 header {
     min-height: 100vh;
@@ -164,4 +178,62 @@ header {
 .hero__img:first-child {
     position: relative;
     margin-left: -6px;
+}
+/* services */
+.services {
+    padding: 170px 0;
+}
+.services__top {
+    text-align: center;
+}
+.section__desc {
+    margin: 18px auto 0;
+    width: 468px;
+}
+.services__row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+.service__img {
+    width: 570px;
+    height: 570px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.service-left {
+    margin-left: 130px;
+}
+.service-item {
+    display: flex;
+    width: 470px;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px 0px #0000000d;
+}
+.service-item:hover {
+    cursor: pointer;
+    border: 3px solid #2e80ce;
+    background: lightblue;
+}
+.service__item--icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service__item--heading {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.27;
+}
+.service__item--desc {
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+    margin-top: 8px;
+}
+.service__btn {
+    margin-top: 55px;
 }
